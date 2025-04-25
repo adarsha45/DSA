@@ -5,6 +5,7 @@ public class BubbleSort{
         bubbleSort(arr);
         System.out.println("Sorted array: " + java.util.Arrays.toString(arr));
 
+
     }
     public static void bubbleSort(int arr[]){
         int n = arr.length;
