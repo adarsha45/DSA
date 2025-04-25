@@ -12,10 +12,12 @@ public class LinearSearch{
     }
 
     public static int linearSearch(int[] arr,int target){
-        for(int i=0;i<arr.length;i++){
-            if(arr[i] == target){
-                return i;
+        int index = 0;
+        for(int elements: arr ){
+            if(elements == target){
+                return index;
             }
+            index++;
         }
         return -1;
     }
